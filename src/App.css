@@ -28,12 +28,28 @@
   color: #61dafb;
 }
 
+/* My stuff */
 #app {
   background-color: #4C5C3C;
-  color: #DBFFA3;
-  height: 100vh;
+  color: #DCECB4;
 }
 
+#navigation {
+  margin-left: 0;
+}
+
+.section {
+  height: 100vh;
+  padding-top: 75px;
+  padding-left: 25px;
+}
+
+/*
+.section-heading {
+  padding-top: 75px;
+}
+
+  /* -------------------*/
 @keyframes App-logo-spin {
   from {
     transform: rotate(0deg);
