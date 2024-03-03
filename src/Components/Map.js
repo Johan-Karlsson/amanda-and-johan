@@ -28,7 +28,7 @@ export default function Map(){
 
   return (
     // Important! Always set the container height explicitly
-    <div style={{ height: '100%', width: '100%' }}>
+    <div style={{ height: '50%', width: '100%' }}>
       <GoogleMapReact
         bootstrapURLKeys={{ key: "AIzaSyBwNm4lUgUquDLStHdXx3eBErnJZ0QI6wg" }}
         defaultCenter={defaultProps.center}
@@ -38,6 +38,16 @@ export default function Map(){
           lat={57.691127970523624}
           lng={11.90961347725245}
           text="Vigsel"
+        />
+        <AnyReactComponent
+          lat={57.690599040317224}
+          lng={11.907897305732002}
+          text="Hotell"
+        />
+        <AnyReactComponent
+          lat={57.6893199476224}
+          lng={11.90637389703089}
+          text="Festlokal"
         />
       </GoogleMapReact>
     </div>

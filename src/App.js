@@ -6,6 +6,9 @@ import Col from 'react-bootstrap/Col';
 import Container from 'react-bootstrap/Container';
 import Image from 'react-bootstrap/Image';
 import Row from 'react-bootstrap/Row';
+import Button from 'react-bootstrap/Button';
+import Card from 'react-bootstrap/Card';
+import CardGroup from 'react-bootstrap/CardGroup';
 
 
 export default function MyApp() {
@@ -25,8 +28,40 @@ export default function MyApp() {
           </Row>
         </Container>
         <Container id="scrollspyHeading2" className="section">
-          <h4 className="section-heading">Plats</h4>
-          <Map></Map>
+          <Row>
+            <h4 className="section-heading">Plats</h4>
+          </Row>
+              <Map></Map>
+          <Row>
+            <div style={{paddingTop: "25px"}}>
+            <CardGroup>
+      <Card>
+        <Card.Body>
+          <Card.Title>Vigsel</Card.Title>
+          <Card.Text>
+            Sankta Birgittas kapell
+          </Card.Text>
+        </Card.Body>
+      </Card>
+      <Card>
+        <Card.Body>
+          <Card.Title>Festlokal</Card.Title>
+          <Card.Text>
+            Sockerbruket Arena
+          </Card.Text>
+        </Card.Body>
+      </Card>
+      <Card>
+        <Card.Body>
+          <Card.Title>Hotell</Card.Title>
+          <Card.Text>
+            Quality Hotel Waterfront, mer info längre ned
+          </Card.Text>
+        </Card.Body>
+      </Card>
+    </CardGroup>
+            </div>
+          </Row>
         </Container>
         <Container id="scrollspyHeading3" className="section">
         <h4 className="section-heading">Boende</h4>
