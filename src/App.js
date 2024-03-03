@@ -1,6 +1,7 @@
 import 'bootstrap/dist/css/bootstrap.min.css';
 import './App.css'
 import Navigation from './Components/Navigation';
+import Map from './Components/Map'
 import Col from 'react-bootstrap/Col';
 import Container from 'react-bootstrap/Container';
 import Image from 'react-bootstrap/Image';
@@ -16,7 +17,7 @@ export default function MyApp() {
           <Row>
             <Col>
             <h1 className="section-heading">Vi ska gifta oss!</h1>
-            <p>Den 14:e september blir det bröllop, och vi vill gärna fira den här dagen med er. All information ni bheöver för att vara med på detta kalas kommer att dyka upp på den här hemsidan under våren.</p>
+            <p>Den 14:e september blir det bröllop, och vi vill gärna fira den här dagen med er. All information ni behöver för att vara med på detta kalas kommer att dyka upp på den här hemsidan under våren.</p>
             </Col>
             <Col>
               <Image src="ja.JPG" rounded fluid/>
@@ -25,6 +26,7 @@ export default function MyApp() {
         </Container>
         <Container id="scrollspyHeading2" className="section">
           <h4 className="section-heading">Plats</h4>
+          <Map></Map>
         </Container>
         <Container id="scrollspyHeading3" className="section">
         <h4 className="section-heading">Boende</h4>
