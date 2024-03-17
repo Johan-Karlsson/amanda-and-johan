@@ -3,8 +3,8 @@ import GoogleMapReact from 'google-map-react';
 
 const AnyReactComponent = ({ text }) => (
     <div style={{
-      color: 'white', 
-      background: 'grey',
+      color: '#DCECB4', 
+      background: '#4c5c3c',
       padding: '15px 10px',
       display: 'inline-flex',
       textAlign: 'center',
@@ -28,7 +28,7 @@ export default function Map(){
 
   return (
     // Important! Always set the container height explicitly
-    <div style={{ height: '50%', width: '100%' }}>
+    <div style={{ height: '50vh', width: '100%' }}>
       <GoogleMapReact
         bootstrapURLKeys={{ key: "AIzaSyBwNm4lUgUquDLStHdXx3eBErnJZ0QI6wg" }}
         defaultCenter={defaultProps.center}

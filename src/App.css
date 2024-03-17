@@ -34,14 +34,28 @@
   color: #DCECB4;
 }
 
+.card {
+  --bs-card-bg: #f8f9fa;
+}
+
 #navigation {
   margin-left: 0;
 }
 
 .section {
-  height: 100vh;
+  min-height: 100vh;
   padding-top: 75px;
-  padding-left: 25px;
+  padding-left: 10px;
+  padding-right: 10px;
+}
+
+.btn-primary {
+  --bs-btn-color: #fff;
+  --bs-btn-bg: #a78a34;
+  --bs-btn-border-color: #4c5c3c;
+  --bs-btn-hover-color: #fff;
+  --bs-btn-hover-bg: #947b33;
+  --bs-btn-hover-border-color: #4c5c3c;
 }
 
 /*

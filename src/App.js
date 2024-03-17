@@ -1,6 +1,7 @@
 import 'bootstrap/dist/css/bootstrap.min.css';
 import './App.css'
 import Navigation from './Components/Navigation';
+import Contact from './Components/Contact';
 import Map from './Components/Map'
 import Col from 'react-bootstrap/Col';
 import Container from 'react-bootstrap/Container';
@@ -34,43 +35,76 @@ export default function MyApp() {
               <Map></Map>
           <Row>
             <div style={{paddingTop: "25px"}}>
-            <CardGroup>
-      <Card>
-        <Card.Body>
-          <Card.Title>Vigsel</Card.Title>
-          <Card.Text>
-            Sankta Birgittas kapell
-          </Card.Text>
-        </Card.Body>
-      </Card>
-      <Card>
-        <Card.Body>
-          <Card.Title>Festlokal</Card.Title>
-          <Card.Text>
-            Sockerbruket Arena
-          </Card.Text>
-        </Card.Body>
-      </Card>
-      <Card>
-        <Card.Body>
-          <Card.Title>Hotell</Card.Title>
-          <Card.Text>
-            Quality Hotel Waterfront, mer info längre ned
-          </Card.Text>
-        </Card.Body>
-      </Card>
-    </CardGroup>
+              <CardGroup>
+                <Card>
+                  <Card.Body>
+                    <Card.Title>Vigsel</Card.Title>
+                    <Card.Text>
+                      Sankta Birgittas kapell
+                    </Card.Text>
+                    <Button href='https://maps.app.goo.gl/xwgAKFpjgCUW7nvk9' target="_blank" variant="primary">Öppna i Google Maps</Button>
+                  </Card.Body>
+                </Card>
+                <Card>
+                  <Card.Body>
+                    <Card.Title>Festlokal</Card.Title>
+                    <Card.Text>
+                      Sockerbruket Arena
+                    </Card.Text>
+                    <Button href='https://maps.app.goo.gl/5sFK8kb5QtW74xHc6' target="_blank" variant="primary">Öppna i Google Maps</Button>
+                  </Card.Body>
+                </Card>
+                <Card>
+                  <Card.Body>
+                    <Card.Title>Hotell</Card.Title>
+                    <Card.Text>
+                      Quality Hotel Waterfront. Kika under "Boende" för mer info.
+                    </Card.Text>
+                    <Button href='https://maps.app.goo.gl/u5AnTUEMdsjQFwps7' target="_blank" variant="primary">Öppna i Google Maps</Button>
+                  </Card.Body>
+                </Card>
+              </CardGroup>
             </div>
           </Row>
         </Container>
         <Container id="scrollspyHeading3" className="section">
-        <h4 className="section-heading">Boende</h4>
+          <h4 className="section-heading">Boende</h4>
+          <p>För er som vill hitta ett boende i närheten av festligheterna rekommenderar vi Quality Hotel Waterfront. Smsa Johan på 0703328962 för att få en rabattkod på 15%.</p>
+          <Button href='https://www.strawberry.se/transformation/?hotelId=117629' target="_blank" variant="primary">Boka hotell</Button>
+          <Row style={{paddingTop: "25px"}}>
+            <Image src="step1.png" rounded fluid/>
+            <p>Använd rabattkoden genom att klicka på "Lägg till rabatt- eller bokningskod här", efter att ni valt datum och antal rum. Tryck sedan på "Sök" och gå vidare till nästa steg.</p>
+          </Row>
+          <Image src="step2.png" rounded fluid/>
+          <p>Scrolla ned till de olika rumskategorierna och välj det som heter "Local Event 15%". Fyll därefter i personliga detaljer och biffen är kirrad!</p>
         </Container>
         <Container id="scrollspyHeading4" className="section">
-        <h4 className="section-heading">Kontakter</h4>
+          <h4 className="section-heading">Kontakter</h4>
+          <h5>Värdpar</h5>
+          <p>Vi finns här för att svara på frågor och guida er under bröllopsdagen. Vi kan svara på det mesta, men för frågor angeånde tal och bravader under middagen hänvisar vi till våra eminenta toastmasters.</p>
+          <Row xs={2}>
+            <Col>
+                <Contact image="tobias.jpg" name="Tobias Fransson" phone="0706051603"></Contact>
+              </Col>
+              <Col>
+                <Contact image="ellen.png" name="Ellen Therstol" phone="0734018190"></Contact>
+              </Col>
+          </Row>
+          <h5 style={{paddingTop: "25px"}}>Toastmasters</h5>
+          <p>Vi styr upp allt som händer under kvällens middag, förutom själva matlagningen. Vill ni hålla tal? Prata med oss!</p>
+          <Row xs={2}>
+            <Col>
+                <Contact image="viktor.jpeg" name="Viktor Barnö" phone="0725252379"></Contact>
+              </Col>
+              <Col>
+                <Contact image="sten.jpeg" name="Simon Carlsson" phone="0709723558"></Contact>
+              </Col>
+          </Row>
         </Container>
         <Container id="scrollspyHeading5" className="section">
         <h4 className="section-heading">OSA</h4>
+        <p>För att göra det lätt för både er och oss ber vi er OSA via vårt Google-formulär som ni når via knappen nedan. Vi vill gärna få in ert svar senast den 3:e maj.</p>
+        <Button href='https://docs.google.com/forms/d/e/1FAIpQLSfr8-2_ctKEzIpI9pS-GjkhUIWT9YcNJ9b5p5JgA2HgrK7ABw/viewform?usp=sf_link' target="_blank" variant="primary">OSA</Button>
         </Container>
       </div>
     </div>
