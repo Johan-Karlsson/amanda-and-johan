@@ -20,12 +20,14 @@ export default function MyApp() {
         <Container id="scrollspyHeading1" className="section">
           <Row>
             <Col>
-            <h1 className="section-heading">Vi ska gifta oss!</h1>
-            <p>Den 14:e september blir det bröllop, och vi vill gärna fira den här dagen med er. All information ni behöver för att vara med på detta kalas kommer att dyka upp på den här hemsidan under våren.</p>
+              <h1 className="section-heading">Vi ska gifta oss!</h1>
             </Col>
             <Col>
               <Image src="ja.JPG" rounded fluid/>
             </Col>
+          </Row>
+          <Row style={{paddingTop: "25px"}}>
+            <p>Den 14:e september blir det bröllop, och vi vill gärna fira den här dagen med er. All information ni behöver för att vara med på detta kalas kommer att dyka upp på den här hemsidan under våren.</p>
           </Row>
         </Container>
         <Container id="scrollspyHeading2" className="section">
