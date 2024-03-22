@@ -89,7 +89,7 @@ export default function MyApp() {
                 <Contact image="tobias.jpg" name="Tobias Fransson" phone="0706051603"></Contact>
               </Col>
               <Col>
-                <Contact image="ellen.png" name="Ellen Therstol" phone="0734018190"></Contact>
+                <Contact image="ellen.png" name="Ellen Thersthol" phone="0734018190"></Contact>
               </Col>
           </Row>
           <h5 style={{paddingTop: "25px"}}>Toastmasters</h5>
