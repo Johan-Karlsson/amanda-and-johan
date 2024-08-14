@@ -17,7 +17,7 @@ export default function MyApp() {
     <div id="app">
       <Navigation></Navigation>
       <div id="contents" data-spy="scroll" data-target="#nav-options" data-offset="0">
-        <Container id="scrollspyHeading1" className="section">
+        <Container id="scrollspyHeading0" className="section">
           <Row>
             <Col>
               <h1 className="section-heading">Vi ska gifta oss!</h1>
@@ -28,6 +28,42 @@ export default function MyApp() {
           </Row>
           <Row style={{paddingTop: "25px"}}>
             <p>Den 14:e september blir det bröllop, och vi vill gärna fira den här dagen med er. All information ni behöver för att vara med på detta kalas kommer att dyka upp på den här hemsidan under våren.</p>
+          </Row>
+        </Container>
+        <Container id="scrollspyHeading1" className="section">
+        <h4 className="section-heading">Senaste nytt</h4>
+          <Row>
+          <CardGroup>
+            <Card>
+              <Card.Body>
+                <Card.Title>Tal</Card.Title>
+                <Card.Subtitle className="mb-2 text-muted">Anmälan</Card.Subtitle>
+                <Card.Text>
+                Om ni vill hålla tal så anmäler ni det via länken nedanför, eller hör av er till våra toasmasters. Kontaktinfo finns längre ned.
+                </Card.Text>
+                <Button href='https://docs.google.com/forms/d/e/1FAIpQLSfJYCMKDzu9NzFaf04q3wSMb1b7yaffpqLuZmzzkkN77KjUgw/viewform' target="_blank" variant="primary">Jag vill tala!</Button>
+              </Card.Body>
+            </Card>
+              <Card>
+                <Card.Body>
+                  <Card.Title>Dagordning</Card.Title>
+                  <Card.Subtitle className="mb-2 text-muted">Bra att veta</Card.Subtitle>
+                  <Card.Text>
+                  Efter vigseln kommer det att serveras tårta, kaffe, och bubbel. Middagen beräknas börja serveras vid 17.00. Det kan därmed vara bra att äta en stabil frukost eller en lättare lunch innan vigseln.
+                  </Card.Text>
+                </Card.Body>
+            </Card>
+            <Card>
+                <Card.Body>
+                  <Card.Title>Önskelista</Card.Title>
+                  <Card.Subtitle className="mb-2 text-muted">För er som undrar</Card.Subtitle>
+                  <Card.Text>
+                  Då flera av er frågat efter en önskelista har vi lagt upp en digital variant som ni når via länken nedanför.
+                  </Card.Text>
+                  <Button href='https://mywishlist.online/w/twag8l/amanda-johans-onskelista' target="_blank" variant="primary">Önskelista</Button>
+                </Card.Body>
+            </Card>
+            </CardGroup>
           </Row>
         </Container>
         <Container id="scrollspyHeading2" className="section">
