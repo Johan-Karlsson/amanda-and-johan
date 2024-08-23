@@ -49,7 +49,7 @@ export default function MyApp() {
                   <Card.Title>Dagordning</Card.Title>
                   <Card.Subtitle className="mb-2 text-muted">Bra att veta</Card.Subtitle>
                   <Card.Text>
-                  Efter vigseln kommer det att serveras tårta, kaffe, och bubbel. Middagen beräknas börja serveras vid 17.00. Det kan därmed vara bra att äta en stabil frukost eller en lättare lunch innan vigseln.
+                  Efter vigseln kommer det att serveras tårta, kaffe, och bubbel. Middagen beräknas börja serveras vid 17.30. Det kan därmed vara bra att äta en stabil frukost eller en lättare lunch innan vigseln.
                   </Card.Text>
                 </Card.Body>
             </Card>
@@ -61,6 +61,16 @@ export default function MyApp() {
                   Då flera av er frågat efter en önskelista har vi lagt upp en digital variant som ni når via länken nedanför.
                   </Card.Text>
                   <Button href='https://mywishlist.online/w/twag8l/amanda-johans-onskelista' target="_blank" variant="primary">Önskelista</Button>
+                </Card.Body>
+            </Card>
+            <Card>
+                <Card.Body>
+                  <Card.Title>Klädkod</Card.Title>
+                  <Card.Subtitle className="mb-2 text-muted">Vad betyder "Kavaj"?</Card.Subtitle>
+                  <Card.Text>
+                  Klädkod Kavaj har historiskt sett syftat på det vi idag benämner som Mörk Kostym. Klädkoden betyder fortfarande hel kostym men öppnar nu en större variation av nyanser på såväl kostym som skjorta och skor. Det rör sig alltså inte om en uddakavaj eller Blazer när det står Kavaj på inbjudan.
+                  </Card.Text>
+                  <Button href='https://www.oscarjacobson.com/sv-se/inspiration/guider/hall-koll-pa-kladkoderna/' target="_blank" variant="primary">Läs mer om klädkoder</Button>
                 </Card.Body>
             </Card>
             </CardGroup>
