@@ -20,7 +20,7 @@ function Navigation() {
           <Navbar.Toggle aria-controls="basic-navbar-nav" />
           <Navbar.Collapse id="basic-navbar-nav">
             <Nav className="me-auto">
-              <Nav.Link href="#scrollspyHeading1">Senaste nytt</Nav.Link>
+              <Nav.Link href="#scrollspyHeading1">Nyheter</Nav.Link>
               <Nav.Link href="#scrollspyHeading2">Plats</Nav.Link>
               <Nav.Link href="#scrollspyHeading3">Boende</Nav.Link>
               <Nav.Link href="#scrollspyHeading4">Kontakter</Nav.Link>
