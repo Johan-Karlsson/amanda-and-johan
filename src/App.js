@@ -31,7 +31,7 @@ export default function MyApp() {
           </Row>
         </Container>
         <Container id="scrollspyHeading1" className="section">
-        <h4 className="section-heading">Senaste nytt</h4>
+        <h4 className="section-heading">Nyheter</h4>
           <Row>
           <CardGroup>
             <Card>
@@ -49,7 +49,7 @@ export default function MyApp() {
                   <Card.Title>Dagordning</Card.Title>
                   <Card.Subtitle className="mb-2 text-muted">Bra att veta</Card.Subtitle>
                   <Card.Text>
-                  Efter vigseln kommer det att serveras tårta, kaffe, och bubbel. Middagen beräknas börja serveras vid 17.30. Det kan därmed vara bra att äta en stabil frukost eller en lättare lunch innan vigseln.
+                  Vigseln startar 12.30. Efter vigseln kommer det att serveras tårta, kaffe, och bubbel. Under eftermiddagen kommer det finnas lättare snacks att tillgå, innan middagen börjar serveras vid 17.30-18.00. Det kan därmed vara bra att äta en stabil frukost eller en lättare lunch innan vigseln.
                   </Card.Text>
                 </Card.Body>
             </Card>
